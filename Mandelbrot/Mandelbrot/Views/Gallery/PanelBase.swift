@@ -23,6 +23,5 @@ struct PanelBase: View {
             }.frame(width: 60, height: 24)
         }
         .frame(width: w - 6, height: 300)
-        .animation(.easeInOut(duration: 0.3))
     }
 }

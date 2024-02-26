@@ -16,8 +16,8 @@ import SwiftUI
 class Manager: NSObject {
     class func resultForComplex(_ initial: CXPoint, in geometry: GeometryProxy, mode: MapMode) -> Result {
         switch mode {
-        case .juliaSet: return Manager.getConvergence(initial, iterations: 10, in: geometry)
-        case .mandelbrot: return Manager.getConvergenceForC(initial, iterations: 200, in: geometry)
+        case .juliaSet: Manager.getConvergence(initial, iterations: 10, in: geometry)
+        case .mandelbrot: Manager.getConvergenceForC(initial, iterations: 200, in: geometry)
         }
     }
 

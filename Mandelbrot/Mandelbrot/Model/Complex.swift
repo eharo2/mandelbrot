@@ -147,3 +147,9 @@ class CXPoint {
         return "(\(Int(self.x)), \(Int(self.y)))"
     }
 }
+
+extension [[CXPoint]] {
+    static var empty: [[CXPoint]] {
+        [[CXPoint](), [CXPoint](), [CXPoint](), [CXPoint]()]
+    }
+}

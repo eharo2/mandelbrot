@@ -31,16 +31,10 @@
 		EFFBE25C2B8AE2D90012685A /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE23F2B8AE2D90012685A /* Gallery.swift */; };
 		EFFBE25D2B8AE2D90012685A /* Panel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2402B8AE2D90012685A /* Panel2.swift */; };
 		EFFBE25E2B8AE2D90012685A /* Panel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2402B8AE2D90012685A /* Panel2.swift */; };
-		EFFBE25F2B8AE2D90012685A /* Map2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2422B8AE2D90012685A /* Map2.swift */; };
-		EFFBE2602B8AE2D90012685A /* Map2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2422B8AE2D90012685A /* Map2.swift */; };
-		EFFBE2612B8AE2D90012685A /* Map0.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2432B8AE2D90012685A /* Map0.swift */; };
-		EFFBE2622B8AE2D90012685A /* Map0.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2432B8AE2D90012685A /* Map0.swift */; };
+		EFFBE2612B8AE2D90012685A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2432B8AE2D90012685A /* MapView.swift */; };
+		EFFBE2622B8AE2D90012685A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2432B8AE2D90012685A /* MapView.swift */; };
 		EFFBE2632B8AE2D90012685A /* TouchPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2442B8AE2D90012685A /* TouchPad.swift */; };
 		EFFBE2642B8AE2D90012685A /* TouchPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2442B8AE2D90012685A /* TouchPad.swift */; };
-		EFFBE2652B8AE2D90012685A /* Map1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2452B8AE2D90012685A /* Map1.swift */; };
-		EFFBE2662B8AE2D90012685A /* Map1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2452B8AE2D90012685A /* Map1.swift */; };
-		EFFBE2672B8AE2D90012685A /* Map3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2462B8AE2D90012685A /* Map3.swift */; };
-		EFFBE2682B8AE2D90012685A /* Map3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2462B8AE2D90012685A /* Map3.swift */; };
 		EFFBE2692B8AE2D90012685A /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2472B8AE2D90012685A /* Lines.swift */; };
 		EFFBE26A2B8AE2D90012685A /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2472B8AE2D90012685A /* Lines.swift */; };
 		EFFBE26B2B8AE2D90012685A /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBE2482B8AE2D90012685A /* Grid.swift */; };
@@ -106,11 +100,8 @@
 		EFFBE23E2B8AE2D90012685A /* Panel0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panel0.swift; sourceTree = "<group>"; };
 		EFFBE23F2B8AE2D90012685A /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		EFFBE2402B8AE2D90012685A /* Panel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panel2.swift; sourceTree = "<group>"; };
-		EFFBE2422B8AE2D90012685A /* Map2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map2.swift; sourceTree = "<group>"; };
-		EFFBE2432B8AE2D90012685A /* Map0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map0.swift; sourceTree = "<group>"; };
+		EFFBE2432B8AE2D90012685A /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EFFBE2442B8AE2D90012685A /* TouchPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchPad.swift; sourceTree = "<group>"; };
-		EFFBE2452B8AE2D90012685A /* Map1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map1.swift; sourceTree = "<group>"; };
-		EFFBE2462B8AE2D90012685A /* Map3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map3.swift; sourceTree = "<group>"; };
 		EFFBE2472B8AE2D90012685A /* Lines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lines.swift; sourceTree = "<group>"; };
 		EFFBE2482B8AE2D90012685A /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		EFFBE2492B8AE2D90012685A /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
@@ -250,10 +241,7 @@
 			children = (
 				EFFBE2492B8AE2D90012685A /* Plane.swift */,
 				EFFBE2442B8AE2D90012685A /* TouchPad.swift */,
-				EFFBE2432B8AE2D90012685A /* Map0.swift */,
-				EFFBE2452B8AE2D90012685A /* Map1.swift */,
-				EFFBE2422B8AE2D90012685A /* Map2.swift */,
-				EFFBE2462B8AE2D90012685A /* Map3.swift */,
+				EFFBE2432B8AE2D90012685A /* MapView.swift */,
 				EFFBE2472B8AE2D90012685A /* Lines.swift */,
 				EFFBE2482B8AE2D90012685A /* Grid.swift */,
 				EFFBE24A2B8AE2D90012685A /* Shapes.swift */,
@@ -423,19 +411,16 @@
 				EFFBE24D2B8AE2D90012685A /* Guide1.swift in Sources */,
 				EFFBE26D2B8AE2D90012685A /* Plane.swift in Sources */,
 				EFFBE26F2B8AE2D90012685A /* Shapes.swift in Sources */,
-				EFFBE2672B8AE2D90012685A /* Map3.swift in Sources */,
-				EFFBE25F2B8AE2D90012685A /* Map2.swift in Sources */,
 				EFFBE2592B8AE2D90012685A /* Panel0.swift in Sources */,
 				EFFBE2942B8AE4200012685A /* Global.swift in Sources */,
 				EFFBE2732B8AE2D90012685A /* ContentView.swift in Sources */,
-				EFFBE2612B8AE2D90012685A /* Map0.swift in Sources */,
+				EFFBE2612B8AE2D90012685A /* MapView.swift in Sources */,
 				EFFBE2692B8AE2D90012685A /* Lines.swift in Sources */,
 				EFFBE25B2B8AE2D90012685A /* Gallery.swift in Sources */,
 				EFFBE20B2B8AE29D0012685A /* MandelbrotApp.swift in Sources */,
 				EFFBE2532B8AE2D90012685A /* ColorEntry.swift in Sources */,
 				EFFBE2512B8AE2D90012685A /* PanelBase.swift in Sources */,
 				EFFBE25D2B8AE2D90012685A /* Panel2.swift in Sources */,
-				EFFBE2652B8AE2D90012685A /* Map1.swift in Sources */,
 				EFFBE2912B8AE3240012685A /* CGPoint.swift in Sources */,
 				EFFBE27D2B8AE2E30012685A /* Complex.swift in Sources */,
 				EFFBE28F2B8AE3240012685A /* Path.swift in Sources */,
@@ -456,7 +441,6 @@
 				EFFBE25C2B8AE2D90012685A /* Gallery.swift in Sources */,
 				EFFBE2522B8AE2D90012685A /* PanelBase.swift in Sources */,
 				EFFBE2582B8AE2D90012685A /* ColorPicker.swift in Sources */,
-				EFFBE2662B8AE2D90012685A /* Map1.swift in Sources */,
 				EFFBE2722B8AE2D90012685A /* Layer.swift in Sources */,
 				EFFBE2562B8AE2D90012685A /* Panel.swift in Sources */,
 				EFFBE25E2B8AE2D90012685A /* Panel2.swift in Sources */,
@@ -469,12 +453,10 @@
 				EFFBE2642B8AE2D90012685A /* TouchPad.swift in Sources */,
 				EFFBE2952B8AE4200012685A /* Global.swift in Sources */,
 				EFFBE21D2B8AE29E0012685A /* MandelbrotTests.swift in Sources */,
-				EFFBE2602B8AE2D90012685A /* Map2.swift in Sources */,
 				EFFBE25A2B8AE2D90012685A /* Panel0.swift in Sources */,
 				EFFBE27A2B8AE2E30012685A /* Manager.swift in Sources */,
-				EFFBE2622B8AE2D90012685A /* Map0.swift in Sources */,
+				EFFBE2622B8AE2D90012685A /* MapView.swift in Sources */,
 				EFFBE2922B8AE3240012685A /* CGPoint.swift in Sources */,
-				EFFBE2682B8AE2D90012685A /* Map3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

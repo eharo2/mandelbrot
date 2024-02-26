@@ -51,8 +51,8 @@ struct Panel0: View {
                 }) {
                     Text("Clear Julia Set")
                     .padding(6)
-                    .background(Color.white)
-                    .foregroundColor(Color.black)
+                    .background(Color.red)
+                    .foregroundColor(.yellow)
                 }
                 .cornerRadius(6)
                 Button(action:  {
@@ -60,7 +60,7 @@ struct Panel0: View {
                 }) {
                     Text("Other")
                     .padding(6)
-                    .background(Color.white)
+                    .background(Color.red)
                     .foregroundColor(Color.black)
                 }
                 .cornerRadius(6)
@@ -70,7 +70,6 @@ struct Panel0: View {
         }
         .frame(width: w - 6, height: 300)
         .font(.footnote)
-        .animation(.easeInOut(duration: 0.3))
         .onTapGesture {
             print("Show")
         }
